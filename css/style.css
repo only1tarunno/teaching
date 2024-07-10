@@ -7,28 +7,18 @@ body {
 }
 .slick-dots li button:before
 {
-    font-family: 'slick';
-    font-size: 10px;
-    line-height: 20px;
+  content: '';
 
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 20px;
-    height: 20px;
-
-    content: '•';
-    text-align: center;
-
-    opacity: .25;
     color: black;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #c03a3b;
+    opacity: 1;
 }
 .slick-dots li.slick-active button:before
-{
-    opacity: .75;
-    color: #c03a3b;
+{ 
+    background-color: #c03a3b;
+    opacity: 1;
 }
