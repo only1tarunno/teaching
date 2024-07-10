@@ -170,7 +170,7 @@
 
 
    <!-- outcomes start -->
-   <section id="outcomes" class="bg-gradient-to-l from-[#fcead1] via-[#fceedd] to-[#fcead1] md:pt-20 pt-10">
+   <section id="outcomes" class="bg-gradient-to-l from-[#fcead1] via-[#fceedd] to-[#fcead1] md:pt-20 pt-10 bg-no-repeat bg-center bg-cover" style="background-image: url('../img/outcome.png')">
     <div class="container mx-auto px-5 xl:px-16">
       <!-- container box -->
       <div class="max-w-5xl mx-auto flex md:flex-row flex-col items-center">
@@ -219,11 +219,22 @@
 
   <!-- testimonial starts from here  -->
   <section class="container mx-auto px-5 xl:px-16 py-10 lg:py-20">
-    <h2 class="flex justify-center items-center gap-2 font-semibold text-[#c03a3b] text-3xl">
-      Testimonials
-      <span><img src="img/testimonialIcon.png" class="w-8" alt="" /></span>
-    </h2>
-    <div class="relative pt-10">
+    <div class="relative">
+      <h2 class="flex justify-center items-center gap-2 font-semibold text-[#c03a3b] text-3xl">
+        Testimonials
+        <span><img src="img/testimonialIcon.png" class="w-8" alt="" /></span>
+      </h2>
+      <!-- left bee  -->
+      <div class="absolute left-0 -bottom-16 hidden xl:block w-[400px]">
+        <img src="img/testleft.png" class="w-full" alt="">
+      </div>
+      <!-- right bee  -->
+      <div class="absolute right-8 -bottom-16 hidden xl:block w-[150px]">
+        <img src="img/testRight.png" class="w-full" alt="">
+      </div>
+    </div>
+   
+    <div class="relative pt-10 lg:pt-20">
       <!-- arrow start  -->
       <div class="absolute top-1/2 -translate-y-1/2 -left-5 hidden lg:block">
         <button class="prev slick-arrow">
