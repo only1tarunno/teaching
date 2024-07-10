@@ -7,4 +7,17 @@ $(".testimonialSlider").slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
+  centerMode: true,
+  centerPadding: '25px', // Adjust center padding if needed
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: false, // Disable center mode for mobile
+        centerPadding: '0px'
+      }
+    }
+  ]
 });

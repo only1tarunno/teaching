@@ -25,7 +25,7 @@
     <!-- header starts here  -->
     <header class="container mx-auto px-5 xl:px-0">
       <div class="py-5">
-        <img src="img/logo.png" alt="logo" />
+        <img src="img/logo.png" class="w-36" alt="logo" />
       </div>
     </header>
     <!-- header ends here  -->
@@ -113,21 +113,21 @@
     <!-- hero section ends here  -->
 
     <!-- testimonial starts from here  -->
-    <section class="testimonial container mx-auto px-5 xl:px-0 py-10 lg:py-20">
+    <section class="container mx-auto px-5 xl:px-0 py-10 lg:py-20">
       <h2
         class="flex justify-center items-center gap-2 font-semibold text-[#c03a3b] text-3xl"
       >
         Testimonials
         <span><img src="img/testimonialIcon.png" class="w-8" alt="" /></span>
       </h2>
-      <div class="relative">
+      <div class="relative pt-10">
         <!-- arrow start  -->
-        <div class="top-1/2 -translate-y-1/2 left-0">
+        <div class="absolute top-1/2 -translate-y-1/2 -left-5 hidden lg:block">
           <button class="prev slick-arrow">
             <img src="./img/prev.png" alt="prev" />
           </button>
         </div>
-        <div>
+        <div class="absolute top-1/2 -translate-y-1/2 -right-5 hidden lg:block">
           <button class="next slick-arrow">
             <img src="./img/next.png" alt="next" />
           </button>
@@ -135,7 +135,7 @@
         <!-- slider start here  -->
         <div class="testimonialSlider">
           <!-- single item  -->
-          <div class="text-center">
+          <div class="text-center space-y-5">
             <p class="text-[#053359] text-lg font-medium">
               My daughter enjoys giving this exams and finds it very
               interesting. She has been enrolling it for almost 4 years now and
@@ -156,30 +156,25 @@
               </p>
             </div>
           </div>
-          <!-- single item  -->
-          <div class="text-center">
+           <!-- single item  -->
+           <div class="text-center space-y-5">
             <p class="text-[#053359] text-lg font-medium">
-              My daughter enjoys giving this exams and finds it very
-              interesting. She has been enrolling it for almost 4 years now and
-              she is way better at her English language skills today. Study
-              materials are prepared in such a way that students can study by
-              themselves. I strongly recommend it to all the parents to enrol
-              their kids for this spell bee.
+              Spellbee International is a very helpful and effective method for the students to enhance their vocabulary skills and improve their vocabulary, overcome stage fear and are actively interacting with all other students.
             </p>
             <div>
               <img src="img/avatar.png" class="w-6 mx-auto" alt="" />
             </div>
             <div>
               <h4 class="text-[#c03a3b] font-medium text-lg">
-                Jayashree Wable
+                Sivashankaran
               </h4>
               <p class="italic text-[#053359]">
-                Parent of Nishigandha Wable, Sanjivani Academy, Mumbai
+                Parent, Excel Global Schools, Nagercoil, Tamilnadu
               </p>
             </div>
           </div>
-          <!-- single item  -->
-          <div class="text-center">
+           <!-- single item  -->
+           <div class="text-center space-y-5">
             <p class="text-[#053359] text-lg font-medium">
               My daughter enjoys giving this exams and finds it very
               interesting. She has been enrolling it for almost 4 years now and
@@ -203,7 +198,155 @@
         </div>
       </div>
     </section>
+    
     <!-- testimonial ends from here  -->
+
+    <!-- inclusions start here  -->
+    <section class=" bg-no-repeat bg-center bg-cover relative bg-[#3b884e]" style="background-image: url('../img/inclusions.png')">
+      <div
+        class="container mx-auto px-5 xl:px-0 min-h-[768px] py-16 gap-y-10 flex flex-col justify-center"
+      > 
+          <h2 class="flex justify-center items-center gap-2 font-semibold text-white text-3xl">
+            Testimonials
+            <span><img src="img/testimonialIcon.png" class="w-8" alt="" /></span>
+          </h2>
+          <!-- icon box start here  -->
+          <div class="flex justify-between flex-col lg:flex-row gap-5 max-w-[800px] mx-auto pt-10">
+            <div class="space-y-5 w-full lg:w-[40%]">
+              <!-- single items  -->
+              <div class="flex gap-2">
+                  <div>
+                    <img src="img/testimonialIcon.png" class="w-5" alt="">
+                  </div>
+                  <div class="text-white flex-1">
+                    <h3 class="font-medium text-lg">Preparatory Books</h3>
+                    <p class="italic font-light">(Hard-Copy & Digital book)</p>
+                  </div>
+              </div>
+              <!-- single items  -->
+              <div class="flex gap-2">
+                <div>
+                  <img src="img/testimonialIcon.png" class="w-5" alt="">
+                </div>
+                <div class="text-white flex-1">
+                  <h3 class="font-medium text-lg">Online coaching support </h3>
+                  <p class="italic font-light">(24/7 Access to recorded videos and 
+                    Round-based games)</p>
+                </div>
+            </div>
+              <!-- single items  -->
+              <div class="flex gap-2">
+                  <div>
+                    <img src="img/testimonialIcon.png" class="w-5" alt="">
+                  </div>
+                  <div class="text-white flex-1">
+                    <h3 class="font-medium text-lg">Live boot camps</h3>
+                    <p class="italic font-light">(Grade-wise for all Levels)</p>
+                  </div>
+              </div>
+              <!-- single items  -->
+              <div class="flex gap-2">
+                  <div>
+                    <img src="img/testimonialIcon.png" class="w-5" alt="">
+                  </div>
+                  <div class="text-white flex-1">
+                    <h3 class="font-medium text-lg">Online games to strengthen 
+                      your word bank</h3>
+                  </div>
+              </div>  
+            </div>
+            <div class="space-y-5 w-full lg:w-[40%]">
+            <!-- single items  -->
+            <div class="flex gap-2">
+                <div>
+                  <img src="img/testimonialIcon.png" class="w-5" alt="">
+                </div>
+                <div class="text-white flex-1">
+                  <h3 class="font-medium text-lg">Examinations</h3>
+                  
+                </div>
+            </div>
+            <!-- single items  -->
+            <div class="flex gap-2">
+              <div>
+                <img src="img/testimonialIcon.png" class="w-5" alt="">
+              </div>
+              <div class="text-white flex-1">
+                <h3 class="font-medium text-lg">Assessment </h3>
+                <p class="italic font-light">(Detailed and concept-based)</p>
+              </div>
+            </div>
+            <!-- single items  -->
+            <div class="flex gap-2">
+                <div>
+                  <img src="img/testimonialIcon.png" class="w-5" alt="">
+                </div>
+                <div class="text-white flex-1">
+                  <h3 class="font-medium text-lg">Certificates (for all)</h3>
+                
+                </div>
+            </div>
+            <!-- single items  -->
+            <div class="flex gap-2">
+                <div>
+                  <img src="img/testimonialIcon.png" class="w-5" alt="">
+                </div>
+                <div class="text-white flex-1">
+                  <h3 class="font-medium text-lg">Rewards for top rank holders </h3>
+                  <p class="italic font-light">(Medals/book sets/gift vouchers)
+                  </p>
+                </div>
+            </div>  
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- inclusions end here  -->
+
+
+
+    <!-- register section start here  -->
+     <section>
+       <div class="container mx-auto px-5 xl:px-0 py-10 lg:py-16">
+          <div class="text-center">
+            <h5 class="bg-[#c03a3b] inline-block px-4 py-2 rounded-lg text-white font-semibold text-3xl lg:text-4xl">
+              Register online today!
+            </h5>
+            <h6 class="text-[#333333] text-xl font-medium mt-5">Choose your model</h6>
+          </div> 
+          <div class="flex justify-between gap-10 flex-col lg:flex-row pt-16 max-w-[700px] mx-auto">
+            <div class="flex-1 relative">
+              <img src="img/a.png" class="max-w-[320px] mx-auto" alt="">
+              <div class="text-center w-[260px] absolute bottom-10 left-1/2 -translate-x-1/2">
+                <p class="text-[#000000] font-medium mb-5">
+                  SPELLBEE EXCEL
+                  (LEVEL 1 ONLY) Fee <span class="text-[#d40708]">₹ 690/-</span>
+                  A Breathe-Easy-Plan
+                  Additional fee for Levels 2, 3 and 4 shall be applicable as you progress (optional).
+                  Materials will be received Level by Level.
+                </p>
+                <a href="#" class="bg-[#07450f] hover:bg-[#329b40] text-white font-medium text-xl rounded-lg px-4 py-2">Enquire Now</a>
+              </div>
+            </div>
+            <div class="flex-1 relative">
+              <img src="img/b.png" class="max-w-[320px] mx-auto" alt="">
+              <div class="text-center w-[260px] absolute bottom-10 left-1/2 -translate-x-1/2">
+                <p class="text-[#000000] font-medium mb-5">
+                  SPELLBEE INTENSE
+                  (ALL 4 LEVELS) Fee <span class="text-[#ffd937]">₹ 5,400/-</span>
+                  A Money-and-Time-Saver-Plan
+                  Absolutely no additional fee up to the International Level, and you will receive all course materials and full course access in the beginning itself.
+                </p>
+                <a href="#" class="bg-[#07450f] hover:bg-[#2e8b3b] text-white font-medium text-xl rounded-lg px-4 py-2">Enquire Now</a>
+              </div>
+            </div>
+          
+            
+          </div>
+
+       </div>
+     </section>
+    <!-- register section end here  -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
