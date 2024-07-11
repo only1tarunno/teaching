@@ -27,8 +27,8 @@
   <!-- header ends here  -->
 
   <!-- desktop hero section starts here  -->
-  <section class="hero bg-no-repeat bg-left lg:bg-center bg-cover relative hidden lg:block"
-    style="background-image: url('../img/banner.jpg')">
+  <section class="hero bg-no-repeat bg-left lg:bg-center bg-cover relative hidden lg:block z-0"
+    style="background-image: url('../img/l.png');">
     <div class="container mx-auto px-5 xl:px-16 flex flex-col lg:flex-row justify-between min-h-[768px] py-16 gap-y-10">
       <!-- left side  -->
       <div class="self-center space-y-5 lg:space-y-16 w-full lg:max-w-[470px]">
@@ -56,7 +56,7 @@
       </div>
       <!-- righ side  -->
       <div
-        class="bg-[#3a7b42] static lg:absolute h-[106%] right-8 max-w-[500px] -top-5 px-5 py-10 lg:px-10 lg:flex flex-col justify-center space-y-5 lg:space-y-10">
+        class="bg-gradient-to-r from-[#2f6d36] via-[#45894e] to-[#34743c] static lg:absolute h-[106%] right-8 max-w-[500px] -top-5 px-5 py-10 lg:px-10 lg:flex flex-col justify-center space-y-5 lg:space-y-10">
         <h2 class="text-3xl lg:text-6xl text-white font-extrabold">
           Admissions 2024 - 2025
         </h2>
@@ -71,8 +71,8 @@
             class="bg-[#c03a3b] hover:bg-[#e24444] text-white font-medium text-lg lg:text-xl px-6 py-3 rounded-lg">
             Submit
           </button>
-          <p class="text-white text-base0 lg:text-lg">
-            Your information is safe with us
+          <p class="text-white text-base0 lg:text-lg flex items-center gap-2">
+            <span><img src="img/formsecure.png" class="w-4" alt="secure"></span>Your information is safe with us
           </p>
         </form>
       </div>
@@ -107,8 +107,9 @@
         encyclopaedic knowledge
       </p>
     </div>
+    <div class="absolute right-0 bottom-0 w-[45%] sm:w-[30%]"><img src="img/mobile-banner.png" alt="banner" class="w-full"></div>
   </section>
-  <section  class="bg-[#3a7b42] px-10 py-10 space-y-5 lg:hidden block">
+  <section  class="bg-gradient-to-r from-[#2f6d36] via-[#45894e] to-[#34743c] px-10 py-10 space-y-5 lg:hidden block">
   <h2 class="text-4xl text-white font-extrabold ">
     Admissions <br> 2024 - 2025
   </h2>
@@ -123,8 +124,8 @@
       class="bg-[#c03a3b] hover:bg-[#e24444] text-white font-medium text-lg lg:text-xl px-6 py-1 rounded">
       Submit
     </button>
-    <p class="text-white text-base0 lg:text-lg">
-      Your information is safe with us
+    <p class="text-white text-base lg:text-lg flex items-center gap-2">
+      <span><img src="img/formsecure.png" class="w-3" alt="secure"></span> Your information is safe with us
     </p>
   </form>
   </section>
@@ -177,7 +178,8 @@
       </div>
       <!-- image -->
       <div>
-        <img src="img/label-and-round.png" alt="level" class="w-full object-fit">
+        <img src="img/label-and-round.png" alt="level" class="w-full object-fit hidden lg:block">
+        <img src="img/mobile-label.png" alt="level" class="w-full object-fit block lg:hidden">
       </div>
     </div>
   </section>
@@ -298,7 +300,7 @@
       <div class="testimonialSlider">
         <!-- single item  -->
         <div class="text-center space-y-5">
-          <p class="text-[#053359] text-lg font-medium">
+          <p class="text-[#053359] text-lg font-medium min-h-[140px]">
             My daughter enjoys giving this exams and finds it very
             interesting. She has been enrolling it for almost 4 years now and
             she is way better at her English language skills today. Study
@@ -320,7 +322,7 @@
         </div>
         <!-- single item  -->
         <div class="text-center space-y-5">
-          <p class="text-[#053359] text-lg font-medium">
+          <p class="text-[#053359] text-lg font-medium min-h-[140px]">
             Spellbee International is a very helpful and effective method for the students to enhance their vocabulary
             skills and improve their vocabulary, overcome stage fear and are actively interacting with all other
             students.
@@ -339,7 +341,7 @@
         </div>
         <!-- single item  -->
         <div class="text-center space-y-5">
-          <p class="text-[#053359] text-lg font-medium">
+          <p class="text-[#053359] text-lg font-medium min-h-[140px]">
             My daughter enjoys giving this exams and finds it very
             interesting. She has been enrolling it for almost 4 years now and
             she is way better at her English language skills today. Study
@@ -366,8 +368,7 @@
   <!-- testimonial ends from here  -->
 
   <!-- inclusions start here  -->
-  <section class=" bg-no-repeat bg-center bg-cover relative bg-[#3b884e]"
-    style="background-image: url('../img/inclusions.png')">
+  <section class=" relative bg-gradient-to-r from-[#2a6f3d] via-[#489b5e] to-[#296d3c]">
     <div class="container mx-auto px-5 xl:px-16 min-h-[768px] py-16 gap-y-10 flex flex-col justify-center">
       <h2 class="flex justify-center items-center gap-2 font-semibold text-white text-3xl uppercase">
         <span><img src="img/testimonialIcon.png" class="w-8" alt="" /></span>
@@ -463,6 +464,26 @@
         </div>
       </div>
     </div>
+    <!-- img 1  -->
+     <div class="hidden lg:block absolute left-0 top-3  xl:w-[270px]">
+      <img src="img/inclu1.png" class="w-full" alt="">
+     </div>
+    <!-- img 2  -->
+     <div class="hidden lg:block absolute left-0 bottom-2 xl:w-[270px]">
+      <img src="img/inclu2.png" class="w-full" alt="">
+     </div>
+    <!-- img 3  -->
+     <div class="hidden lg:block absolute left-[55%] -bottom-3 xl:w-[170px]">
+      <img src="img/inclu3.png" class="w-full" alt="">
+     </div>
+     <!-- img 4  -->
+     <div class="hidden lg:block absolute right-16 top-0  xl:w-[200px]">
+      <img src="img/inclu4.png" class="w-full" alt="">
+     </div>
+    <!-- img 5  -->
+     <div class="hidden lg:block absolute right-0 bottom-2 xl:w-[300px]">
+      <img src="img/inclu5.png" class="w-full" alt="">
+     </div>
   </section>
   <!-- inclusions end here  -->
 
@@ -525,7 +546,7 @@
 <!-- benefits end -->
 
   <!-- register section start here  -->
-  <section>
+  <section class="bg-no-repeat bg-center bg-cover" style="background-image: url('../img/registerbg.png');">
     <div class="container mx-auto px-5 xl:px-16 py-10 lg:py-16">
       <div class="text-center">
         <h5 class="bg-[#c03a3b] inline-block px-4 py-2 rounded-lg text-white font-semibold text-3xl lg:text-4xl uppercase">
@@ -588,7 +609,7 @@
       <div>
         <p class="md:text-sm text-xs text-center text-white pb-3">SpellBee International Language for Life is a
           registered trademark under the Trademarks Act, 1999.</p>
-        <p class="md:text-xs text-[11.5px] text-center text-white">Design & Development: BYT</p>
+        <p class="md:text-xs text-[11.5px] text-center text-white">Design & Development: <a href="https://bytindia.com/" class="hover:underline">BYT</a></p>
       </div>
     </div>
   </footer>
